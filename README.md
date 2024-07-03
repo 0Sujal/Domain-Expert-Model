@@ -1,5 +1,3 @@
-**Project Title:** Introduction to Generative AI with AWS
-
 # Project Description:
 
 This project explores the fine-tuning of a Meta Llama 2 7B model within the financial domain. The primary goal is to enhance the model's ability to generate contextually relevant and accurate responses to financial prompts. The project leverages Amazon Web Services (AWS) for infrastructure and resources, demonstrating the practical application of generative AI in a real-world scenario.

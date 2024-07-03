@@ -1,4 +1,4 @@
-** Project Title:** Introduction to Generative AI with AWS
+**Project Title:** Introduction to Generative AI with AWS
 
 # Project Description:
 

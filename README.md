@@ -13,7 +13,7 @@ It is a data engineering project leveraging AWS services such as AWS Glue, S3, A
 
 ## Architecture 🏗️
 ![Architecture Diagram] 
-![Image](https://github.com/user-attachments/assets/d8fc3631-5799-4b23-b0ba-0e1507510915)
+![Image](https://github.com/user-attachments/assets/a7f85ab6-4002-41ea-a024-a7f54308b918)
 
 
 ## Technologies Used 🛠️
@@ -65,9 +65,10 @@ Ensure you have the following set up:
 
 ![Image](https://github.com/user-attachments/assets/e481cc6c-93cf-4910-b44a-5c330d5c941d)
 
+![Image](https://github.com/user-attachments/assets/d8fc3631-5799-4b23-b0ba-0e1507510915)
+
 ![Image](https://github.com/user-attachments/assets/3b6ef8e2-24f8-4353-b7e5-e9de72f44b8b)
 
-![Image](https://github.com/user-attachments/assets/a7f85ab6-4002-41ea-a024-a7f54308b918)
 
 
 

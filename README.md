@@ -1,33 +1,71 @@
-# Project Description:
+# Spotify Data Pipeline 🚀
 
-This project explores the fine-tuning of a Meta Llama 2 7B model within the financial domain. The primary goal is to enhance the model's ability to generate contextually relevant and accurate responses to financial prompts. The project leverages Amazon Web Services (AWS) for infrastructure and resources, demonstrating the practical application of generative AI in a real-world scenario.
+## Overview 🌍
+It is a data engineering project leveraging AWS services such as AWS Glue, S3, Athena, Crawlers, Databases, and QuickSight to build a scalable and efficient data pipeline. The project focuses on automating data ingestion, transformation, and visualization to enable insightful analytics.
 
-# **Key Steps:**
+## Features ✨
+- **Automated Data Ingestion** using AWS Glue and S3
+- **Schema Discovery & Management** with AWS Glue Crawlers
+- **Efficient Querying** using AWS Athena
+- **Data Warehousing** with AWS Databases
+- **Interactive Dashboards & Reports** using AWS QuickSight
+- **Scalability & Security** with IAM roles and encryption
 
-**Domain Selection:** The financial domain was chosen for fine-tuning due to its complexity and the potential value of a specialized language model.
+## Architecture 🏗️
+![Architecture Diagram]()
 
-**Model Evaluation:** The initial performance of the model was assessed using domain-specific inputs. The responses, while somewhat relevant, lacked the depth and accuracy desired for financial applications.
+## Technologies Used 🛠️
+- **AWS Glue** - Managed ETL service for data transformation
+- **Amazon S3** - Storage for raw and processed data
+- **AWS Athena** - Serverless query engine for data analysis
+- **AWS Glue Crawlers** - Automated schema discovery and metadata management
+- **AWS Databases (RDS, DynamoDB)** - Data storage solutions
+- **AWS QuickSight** - Business intelligence and visualization
+- **IAM Roles** - Security and access control
+- **Encryption** - Secure data management
 
-**Fine-Tuning:** The model underwent fine-tuning using a curated dataset of financial text. This process aimed to align the model's parameters with the nuances of financial language and concepts.
+## Prerequisites 📋
+Ensure you have the following set up:
+- AWS account with necessary permissions
+- AWS CLI configured with IAM roles
+- S3 buckets for data storage
+- AWS Glue, Athena, and QuickSight services enabled
 
-**Post-Fine-Tuning Evaluation:** The fine-tuned model was re-evaluated using the same domain-specific inputs. The responses showed significant improvement in terms of relevance, accuracy, and depth of understanding.
+## Installation & Setup ⚡
 
-# Technical Details:
+### Step 1: Setup S3 Buckets
+1. Create an S3 bucket for raw data storage.
+2. Create another S3 bucket for processed data.
 
-Model: Meta Llama 2 7B
+### Step 2: Configure AWS Glue
+1. Create AWS Glue Crawlers to scan S3 data and create table schemas.
+2. Set up AWS Glue Jobs for data transformation.
 
-**Infrastructure:** Amazon Web Services (AWS)
+### Step 3: Query Data with Athena
+1. Create an Athena database.
+2. Define tables using Glue Catalog.
+3. Execute SQL queries to analyze data.
 
-**Libraries:** Transformers, PyTorch, etc. (Specific libraries used for fine-tuning and evaluation)
+### Step 4: Create Dashboards in QuickSight
+1. Connect QuickSight to Athena.
+2. Build visual reports and dashboards.
 
-# Results:
+### Step 5: Implement Security & Optimization 🔒
+1. Use IAM roles to manage access.
+2. Encrypt data stored in S3.
+3. Optimize queries for cost efficiency.
 
-The fine-tuned model demonstrated a notable enhancement in its ability to generate financial text. It produced responses that were not only contextually relevant but also informative and accurate. This project highlights the potential of generative AI to revolutionize how we interact with and utilize information within specialized domains.
+## Screenshots 📸
+_Add screenshots of your setup, dashboards, and key functionalities._
 
-# Future Work:
+![AWS Glue Jobs](path_to_glue_screenshot)
+![Athena Query](path_to_athena_screenshot)
+![QuickSight Dashboard](path_to_quicksight_screenshot)
 
-Further fine-tuning with a larger and more diverse financial dataset.
 
-Exploration of other generative AI models and architectures.
+## License 📜
+This project is licensed under [MIT License](LICENSE).
 
-Development of a user interface for interacting with the fine-tuned model.
+## Contact 📬
+- **Email:** sujaldua28@gmail.com
+- **LinkedIn:** [Sujal Dua](https://www.linkedin.com/in/sujaldua/)

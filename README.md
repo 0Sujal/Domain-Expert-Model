@@ -69,7 +69,6 @@ Ensure you have the following set up:
 
 ![Image](https://github.com/user-attachments/assets/a7f85ab6-4002-41ea-a024-a7f54308b918)
 
-![Image](https://github.com/user-attachments/assets/e481cc6c-93cf-4910-b44a-5c330d5c941d)
 
 
 

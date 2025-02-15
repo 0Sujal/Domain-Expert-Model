@@ -12,7 +12,8 @@ It is a data engineering project leveraging AWS services such as AWS Glue, S3, A
 - **Scalability & Security** with IAM roles and encryption
 
 ## Architecture 🏗️
-![Architecture Diagram]()
+![Architecture Diagram](![Image](https://github.com/user-attachments/assets/fb26ac55-d1bc-489f-9eb7-467067414c5a)
+)
 
 ## Technologies Used 🛠️
 - **AWS Glue** - Managed ETL service for data transformation
@@ -57,10 +58,14 @@ Ensure you have the following set up:
 
 ## Screenshots 📸
 _Add screenshots of your setup, dashboards, and key functionalities._
+![Image](https://github.com/user-attachments/assets/3b6ef8e2-24f8-4353-b7e5-e9de72f44b8b)
+![Image](https://github.com/user-attachments/assets/d8fc3631-5799-4b23-b0ba-0e1507510915)
+![Image](https://github.com/user-attachments/assets/a7f85ab6-4002-41ea-a024-a7f54308b918)
+![Image](https://github.com/user-attachments/assets/e481cc6c-93cf-4910-b44a-5c330d5c941d)
+![Image](https://github.com/user-attachments/assets/8e32b289-5cd2-49c4-8a3e-a284b08affe2)
+![Image](https://github.com/user-attachments/assets/fb26ac55-d1bc-489f-9eb7-467067414c5a)
 
-![AWS Glue Jobs](path_to_glue_screenshot)
-![Athena Query](path_to_athena_screenshot)
-![QuickSight Dashboard](path_to_quicksight_screenshot)
+
 
 
 ## License 📜
